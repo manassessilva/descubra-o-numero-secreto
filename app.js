@@ -14,6 +14,9 @@ let numeroSecreto = parseInt(Math.random() * numeroMaximo + 1);
 let chute 
 let tentativas = 1;
 
+//mostra número secreto no console
+console.log(numeroSecreto)
+
 //Enquanto - estrutura de repetição para que o jogo continue rodando até acertar o númeor secreto
 while(chute != numeroSecreto) {
 
@@ -46,5 +49,3 @@ if(tentativas > 1){
 else{
     alert(`Isso ai! Você descobriu o numero secreto ${numeroSecreto} com ${tentativas} ${palavraTentativa}`);
 }
-
-console.log(numeroSecreto)
